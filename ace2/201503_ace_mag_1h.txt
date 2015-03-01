@@ -1,0 +1,29 @@
+:Product: 201503_ace_mag_1h.txt
+:Issued: 2015 Mar 01 0910 UT
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Please send comments and suggestions to SWPC.Webmaster@noaa.gov 
+# 
+# Magnetometer values are in GSM coordinates.
+# 
+# Units: Bx, By, Bz, Bt in nT
+# Units: Latitude  degrees +/-  90.0
+# Units: Longitude degrees 0.0 - 360.0
+# Status(S): 0 = nominal data, 1 to 8 = bad data record, 9 = no data
+# Missing data values: -999.9
+# Source: ACE Satellite - Magnetometer
+#
+#              Hourly Averaged Real-time Interplanetary Magnetic Field Values 
+# 
+#                 Modified Seconds
+# UT Date   Time  Julian   of the   ----------------  GSM Coordinates ---------------
+# YR MO DA  HHMM    Day      Day    S     Bx      By      Bz      Bt     Lat.   Long.
+#------------------------------------------------------------------------------------
+2015 03 01  0000   57082       0    0     7.4    -8.8    -1.8    11.6    -9.0   309.8
+2015 03 01  0100   57082    3600    0     6.3    -6.1    -4.4     9.8   -26.7   315.9
+2015 03 01  0200   57082    7200    0     7.4    -5.8     0.5     9.4     3.1   322.2
+2015 03 01  0300   57082   10800    0     3.5     3.1    -5.1     7.0   -47.5    42.0
+2015 03 01  0400   57082   14400    0     0.3    -6.4    -6.7     9.3   -46.5   272.5
+2015 03 01  0500   57082   18000    0     3.4    -7.2    -5.4     9.6   -34.1   295.2
+2015 03 01  0600   57082   21600    0    -0.6    -7.2    -5.8     9.3   -38.6   264.9
+2015 03 01  0700   57082   25200    0     3.7    -4.9     0.1     6.2     1.2   306.9
+2015 03 01  0800   57082   28800    0     3.6    -0.5    -0.7     3.7   -11.2   351.6
