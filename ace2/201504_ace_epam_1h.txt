@@ -1,0 +1,25 @@
+:Product: 201504_ace_epam_1h.txt
+:Issued: 2015 Apr 01 0810 UT
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Please send comments and suggestions to SWPC.Webmaster@noaa.gov 
+# 
+# Units: Differential Flux particles/cm2-s-ster-MeV
+# Units: Anisotropy Index 0.0 - 2.0
+# Status(S): 0 = nominal, 4,6,7,8 = bad data, unable to process, 9 = no data
+# Missing data values: -1.00e+05, index = -1.00
+# Source: ACE Satellite - Electron, Proton, and Alpha Monitor
+#
+#                      Hourly Averaged Real-time Differential Electron and Proton Flux 
+# 
+#                Modified Seconds ---------------------------- Differential Flux ---------------------------
+# UT Date   Time  Julian  of the  ----- Electron -----   ------------------- Protons keV -------------------  Anis.
+# YR MO DA  HHMM    Day    Day    S    38-53   175-315   S    47-68   115-195   310-580   795-1193 1060-1900  Index
+#------------------------------------------------------------------------------------------------------------------
+2015 04 01  0000   57113       0  0  1.02e+03  2.03e+01  0  2.87e+03  1.18e+02  5.89e+00  8.46e-01  2.67e-01  -1.00
+2015 04 01  0100   57113    3600  0  1.11e+03  2.30e+01  0  2.64e+03  9.50e+01  5.52e+00  8.70e-01  2.65e-01  -1.00
+2015 04 01  0200   57113    7200  0  9.54e+02  2.02e+01  0  2.97e+03  1.23e+02  6.33e+00  8.42e-01  2.64e-01  -1.00
+2015 04 01  0300   57113   10800  0  8.86e+02  2.07e+01  0  2.98e+03  1.13e+02  5.05e+00  8.70e-01  1.81e-01  -1.00
+2015 04 01  0400   57113   14400  0  1.01e+03  2.34e+01  0  2.65e+03  8.25e+01  4.62e+00  9.39e-01  1.93e-01  -1.00
+2015 04 01  0500   57113   18000  0  1.09e+03  2.09e+01  0  2.64e+03  7.93e+01  4.03e+00  7.52e-01  2.54e-01  -1.00
+2015 04 01  0600   57113   21600  0  1.10e+03  2.15e+01  0  2.53e+03  7.59e+01  4.38e+00  9.20e-01  1.90e-01  -1.00
+2015 04 01  0700   57113   25200  0  1.17e+03  2.08e+01  0  2.46e+03  6.79e+01  3.81e+00  1.01e+00  2.03e-01  -1.00
