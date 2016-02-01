@@ -1,0 +1,26 @@
+:Product: 201602_ace_epam_1h.txt
+:Issued: 2016 Feb 01 0910 UT
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Please send comments and suggestions to SWPC.Webmaster@noaa.gov 
+# 
+# Units: Differential Flux particles/cm2-s-ster-MeV
+# Units: Anisotropy Index 0.0 - 2.0
+# Status(S): 0 = nominal, 4,6,7,8 = bad data, unable to process, 9 = no data
+# Missing data values: -1.00e+05, index = -1.00
+# Source: ACE Satellite - Electron, Proton, and Alpha Monitor
+#
+#                      Hourly Averaged Real-time Differential Electron and Proton Flux 
+# 
+#                Modified Seconds ---------------------------- Differential Flux ---------------------------
+# UT Date   Time  Julian  of the  ----- Electron -----   ------------------- Protons keV -------------------  Anis.
+# YR MO DA  HHMM    Day    Day    S    38-53   175-315   S    47-68   115-195   310-580   795-1193 1060-1900  Index
+#------------------------------------------------------------------------------------------------------------------
+2016 02 01  0000   57419       0  0  1.09e+03  2.22e+01  0  6.25e+03  1.05e+03  8.89e+01  8.81e+00  1.88e+00  -1.00
+2016 02 01  0100   57419    3600  0  1.08e+03  2.06e+01  0  6.31e+03  1.04e+03  8.42e+01  8.74e+00  1.69e+00  -1.00
+2016 02 01  0200   57419    7200  0  9.63e+02  2.25e+01  0  6.64e+03  1.13e+03  8.77e+01  8.75e+00  1.72e+00  -1.00
+2016 02 01  0300   57419   10800  0  1.05e+03  2.15e+01  0  6.96e+03  1.20e+03  9.04e+01  8.43e+00  1.61e+00  -1.00
+2016 02 01  0400   57419   14400  0  9.12e+02  2.07e+01  0  7.71e+03  1.28e+03  8.97e+01  7.80e+00  1.63e+00  -1.00
+2016 02 01  0500   57419   18000  0  9.82e+02  2.15e+01  0  7.61e+03  1.30e+03  9.22e+01  7.42e+00  1.65e+00  -1.00
+2016 02 01  0600   57419   21600  0  8.92e+02  2.07e+01  0  6.34e+03  9.64e+02  6.70e+01  6.67e+00  1.27e+00  -1.00
+2016 02 01  0700   57419   25200  0  9.01e+02  2.38e+01  0  6.51e+03  1.13e+03  6.95e+01  6.44e+00  1.25e+00  -1.00
+2016 02 01  0800   57419   28800  0  9.77e+02  2.12e+01  0  5.45e+03  6.12e+02  4.25e+01  5.30e+00  9.04e-01  -1.00
