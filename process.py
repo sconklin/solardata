@@ -81,7 +81,6 @@
 #2007 11 01  0000   54405       0    0        1.4      402.7     4.02e+04
 #
 # ==================================================================================================================
-#
 
 import sys
 import os.path
@@ -126,15 +125,24 @@ if len(sys.argv) != 2:
 
 filefront = sys.argv[1].split('.', 1)[0]
 filetype = filefront.split('_', 1)[1]
-print '  File Type: %s' % filetype
 
-if filetype not in filetypeinfo.keys():
+#outfilename = filefront + ".csv"
+outfilename = "output/" + filefront.split("/", 1)[1] + ".csv"
+#print '  File out name: %s' % outfilename
+
+if filetype == "ace_loc_1h":
+    print "    Skipping"
+    sys.exit()
+elif filetype not in filetypeinfo.keys():
     print "I don't know how to deal with the file type of %s (based on filename)" % filetype
-    sys.exit();
+    sys.exit()
 
-rows = []
-with open(sys.argv[1], 'rb') as infile:
+with open(sys.argv[1], 'rb') as infile, open(outfilename, "wb") as outfile:
     logdata = infile.readlines()
+    # header
+    for hf in filetypeinfo[filetype]['colhdrs']:
+        outfile.write("%s," % hf)
+    outfile.write("\n")
     for row in logdata:
         # first char of [:#] means a comment
         if row.startswith((':', '#')):
@@ -153,7 +161,10 @@ with open(sys.argv[1], 'rb') as infile:
 
         timestamp = time.strptime(year+month+day+hh+mm,"%Y%m%d%H%M")
         text_timestamp = time.strftime("%b %d %Y %H:%M:%S", timestamp)
-        print row.strip()
-        rows.append(row)
+        outfile.write("%s," % text_timestamp)
+        outfile.write("%s," % julian_day)
+        for field in fields[5:]:
+            outfile.write("%s," % field)
+        outfile.write("\n")
 
 #    logdata = csv.reader(csvinfile, delimiter=',', quotechar='"')

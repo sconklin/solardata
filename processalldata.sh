@@ -15,8 +15,7 @@
 OUTPUT_DIR="output"
 mkdir -p ./$OUTPUT_DIR
 
-for file in `ls ace/20100308_ace_epam_5m*`; do
+for file in `ls ace/*.txt`; do
     echo processing $file
     ./process.py $file
-    #cd - > /dev/null
 done
