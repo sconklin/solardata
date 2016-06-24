@@ -154,12 +154,17 @@ with open(sys.argv[1], 'rb') as infile, open(outfilename, "wb") as outfile:
         year = fields[0]
         month = fields[1]
         day = fields[2]
-        hh = fields[3][0:1]
+        hh = fields[3][0:2]
         mm = fields[3][2:]
+        #print row
+        #print hh
+        #print mm
+        #print "-------------------------------------------"
+        #sys.exit()
         julian_day = fields[4]
-        ssss = "%04d" % int(fields[5]) # ignored, as we have minute data
-
-        timestamp = time.strptime(year+month+day+hh+mm,"%Y%m%d%H%M")
+        seconds_of_day = int(fields[5]) # ignored, as we have minute data
+        ss = "%02d" % (seconds_of_day - ((3600 * int(hh)) + (60 * int(mm))))
+        timestamp = time.strptime(year+month+day+hh+mm+ss,"%Y%m%d%H%M%S")
         text_timestamp = time.strftime("%b %d %Y %H:%M:%S", timestamp)
         outfile.write("%s," % text_timestamp)
         outfile.write("%s," % julian_day)
