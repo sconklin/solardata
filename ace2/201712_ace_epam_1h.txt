@@ -1,5 +1,5 @@
 :Product: 201712_ace_epam_1h.txt
-:Issued: 2017 Dec 10 2110 UT
+:Issued: 2017 Dec 10 2210 UT
 # Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
 # Please send comments and suggestions to SWPC.Webmaster@noaa.gov 
 # 
@@ -252,3 +252,4 @@
 2017 12 10  1800   58097   64800  0  9.52e+02  2.81e+01  0  3.69e+03  3.54e+01  6.20e+00  1.35e+00  4.00e-01  -1.00
 2017 12 10  1900   58097   68400  0  9.81e+02  2.82e+01  0  3.68e+03  3.63e+01  6.04e+00  1.27e+00  4.04e-01  -1.00
 2017 12 10  2000   58097   72000  0  9.84e+02  2.69e+01  0  3.70e+03  3.55e+01  5.88e+00  1.39e+00  3.85e-01  -1.00
+2017 12 10  2100   58097   75600 -1 -1.00e+05 -1.00e+05 -1 -1.00e+05 -1.00e+05 -1.00e+05 -1.00e+05 -1.00e+05  -1.00
