@@ -1,0 +1,29 @@
+:Product: 201901_ace_mag_1h.txt
+:Issued: 2019 Jan 01 0910 UT
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Please send comments and suggestions to SWPC.Webmaster@noaa.gov 
+# 
+# Magnetometer values are in GSM coordinates.
+# 
+# Units: Bx, By, Bz, Bt in nT
+# Units: Latitude  degrees +/-  90.0
+# Units: Longitude degrees 0.0 - 360.0
+# Status(S): 0 = nominal data, 1 to 8 = bad data record, 9 = no data
+# Missing data values: -999.9
+# Source: ACE Satellite - Magnetometer
+#
+#              Hourly Averaged Real-time Interplanetary Magnetic Field Values 
+# 
+#                 Modified Seconds
+# UT Date   Time  Julian   of the   ----------------  GSM Coordinates ---------------
+# YR MO DA  HHMM    Day      Day    S     Bx      By      Bz      Bt     Lat.   Long.
+#------------------------------------------------------------------------------------
+2019 01 01  0000   58484       0    0     1.1     4.2    -0.6     4.3    -8.3    75.7
+2019 01 01  0100   58484    3600    0     1.2     3.5     2.1     4.2    29.6    71.1
+2019 01 01  0200   58484    7200    0     1.8     3.4     2.9     4.8    36.8    62.3
+2019 01 01  0300   58484   10800    0    -0.2     4.1     1.5     4.4    20.3    92.4
+2019 01 01  0400   58484   14400    0    -2.0     4.5    -3.1     5.8   -32.2   114.3
+2019 01 01  0500   58484   18000    0    -0.9     4.0    -2.8     5.0   -33.9   102.0
+2019 01 01  0600   58484   21600    0    -0.3     3.2    -3.5     4.8   -47.5    95.0
+2019 01 01  0700   58484   25200    0     0.3     2.2    -3.9     4.5   -60.0    81.3
+2019 01 01  0800   58484   28800    9  -999.9  -999.9  -999.9  -999.9  -999.9  -999.9
