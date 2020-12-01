@@ -1,0 +1,25 @@
+:Product: 202012_ace_sis_1h.txt
+:Issued: 2020 Dec 01 0910 UT
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Please send comments and suggestions to SWPC.Webmaster@noaa.gov 
+# 
+# Units: proton flux p/cs2-sec-ster
+# Status(S): 0 = nominal data, 1 to 8 = bad data record, 9 = no data
+# Missing data values: -1.00e+05
+# Source: ACE Satellite - Solar Isotope Spectrometer
+#
+# Hourly Averaged Real-time Integral Flux of High-energy Solar Protons
+# 
+#                 Modified Seconds
+# UT Date   Time   Julian  of the     ---- Integral Proton Flux ----
+# YR MO DA  HHMM     Day     Day      S    > 10 MeV    S    > 30 MeV
+#-------------------------------------------------------------------
+2020 12 01  0000   59184       0      0    1.30e+01    0    2.61e+00
+2020 12 01  0100   59184    3600      0    1.26e+01    0    2.61e+00
+2020 12 01  0200   59184    7200      0    1.18e+01    0    2.56e+00
+2020 12 01  0300   59184   10800      0    1.19e+01    0    2.51e+00
+2020 12 01  0400   59184   14400      0    1.23e+01    0    2.53e+00
+2020 12 01  0500   59184   18000      0    1.28e+01    0    2.58e+00
+2020 12 01  0600   59184   21600      0    1.17e+01    0    2.50e+00
+2020 12 01  0700   59184   25200      0    1.21e+01    0    2.52e+00
+2020 12 01  0800   59184   28800      0    1.15e+01    0    2.47e+00
