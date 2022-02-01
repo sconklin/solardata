@@ -1,0 +1,27 @@
+:Product: 202202_ace_swepam_1h.txt
+:Issued: 2022 Feb 01 0910 UT
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Please send comments and suggestions to SWPC.Webmaster@noaa.gov 
+# 
+# Units: Proton density p/cc
+# Units: Bulk speed km/s
+# Units: Ion tempeture degrees K
+# Status(S): 0 = nominal data, 1 to 8 = bad data record, 9 = no data
+# Missing data values: Density and Speed = -9999.9, Temp. = -1.00e+05
+# Source: ACE Satellite - Solar Wind Electron Proton Alpha Monitor
+#
+#   Hourly Averaged Real-time Bulk Parameters of the Solar Wind Plasma
+# 
+#                Modified Seconds   -------------  Solar Wind  -----------
+# UT Date   Time  Julian  of the          Proton      Bulk         Ion
+# YR MO DA  HHMM    Day     Day     S    Density     Speed     Temperature
+#-------------------------------------------------------------------------
+2022 02 01  0000   59611       0    9    -9999.9    -9999.9    -1.00e+05
+2022 02 01  0100   59611    3600    9    -9999.9    -9999.9    -1.00e+05
+2022 02 01  0200   59611    7200    9    -9999.9    -9999.9    -1.00e+05
+2022 02 01  0300   59611   10800    9    -9999.9    -9999.9    -1.00e+05
+2022 02 01  0400   59611   14400    3    -9999.9    -9999.9    -1.00e+05
+2022 02 01  0500   59611   18000    1        2.8      419.3     1.81e+05
+2022 02 01  0600   59611   21600    3    -9999.9    -9999.9    -1.00e+05
+2022 02 01  0700   59611   25200    0       34.4      402.7     1.26e+05
+2022 02 01  0800   59611   28800    1        8.0      407.0     1.62e+05
