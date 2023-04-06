@@ -1,0 +1,2 @@
+# m h  dom mon dow   command
+09 05 * * * /src/solardata/getnasadata.sh
