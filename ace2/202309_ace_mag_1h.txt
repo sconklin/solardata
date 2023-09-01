@@ -1,0 +1,28 @@
+:Product: 202309_ace_mag_1h.txt
+:Issued: 2023 Sep 01 0810 UT
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Please send comments and suggestions to SWPC.Webmaster@noaa.gov 
+# 
+# Magnetometer values are in GSM coordinates.
+# 
+# Units: Bx, By, Bz, Bt in nT
+# Units: Latitude  degrees +/-  90.0
+# Units: Longitude degrees 0.0 - 360.0
+# Status(S): 0 = nominal data, 1 to 8 = bad data record, 9 = no data
+# Missing data values: -999.9
+# Source: ACE Satellite - Magnetometer
+#
+#              Hourly Averaged Real-time Interplanetary Magnetic Field Values 
+# 
+#                 Modified Seconds
+# UT Date   Time  Julian   of the   ----------------  GSM Coordinates ---------------
+# YR MO DA  HHMM    Day      Day    S     Bx      By      Bz      Bt     Lat.   Long.
+#------------------------------------------------------------------------------------
+2023 09 01  0000   60188       0    0     5.1     6.8     1.3     8.6     8.6    53.1
+2023 09 01  0100   60188    3600    0     5.1     7.9    -1.3     9.5    -8.1    57.2
+2023 09 01  0200   60188    7200    0    -2.5     7.2    -2.9     8.1   -20.8   109.1
+2023 09 01  0300   60188   10800    9  -999.9  -999.9  -999.9  -999.9  -999.9  -999.9
+2023 09 01  0400   60188   14400    0     2.9     7.4    -4.9     9.3   -31.6    68.8
+2023 09 01  0500   60188   18000    0    -1.6     6.4    -4.4     7.9   -33.8   104.0
+2023 09 01  0600   60188   21600    0    -6.4     5.7    -3.1     9.1   -20.0   138.0
+2023 09 01  0700   60188   25200    0    -2.4     6.8    -3.0     7.8   -22.6   109.4
